@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1E8199A2-2549-412A-99AB-9F4C09A9DB7A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BassBPM</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D063C47F-1951-4CB5-9DBD-11651CBC0749</key>
+		<string>https://github.com/paoloandrea/BassBPM</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>trunk/BassBPM.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D063C47F-1951-4CB5-9DBD-11651CBC0749</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>D063C47F-1951-4CB5-9DBD-11651CBC0749</key>
+		<string>https://github.com/paoloandrea/BassBPM</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/paoloandrea/BassBPM/trunk/BassBPM.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D063C47F-1951-4CB5-9DBD-11651CBC0749</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
+			<string>branches</string>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
+			<string>trunk</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D063C47F-1951-4CB5-9DBD-11651CBC0749</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BassBPM</string>
+		</dict>
+	</array>
+</dict>
+</plist>
