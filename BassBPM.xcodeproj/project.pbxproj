@@ -30,8 +30,8 @@
 		529C6485187577120020ED1E /* midnight-ride-01a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 529C6484187577120020ED1E /* midnight-ride-01a.mp3 */; };
 		529C6487187577AF0020ED1E /* heart-of-the-sea-01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 529C6486187577AF0020ED1E /* heart-of-the-sea-01.mp3 */; };
 		529C648B187578AC0020ED1E /* barn-beat-01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 529C648A187578AC0020ED1E /* barn-beat-01.mp3 */; };
-		52D29B8D1871700600B11C81 /* libbass_fx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D29B8C1871700600B11C81 /* libbass_fx.a */; };
-		52D29B8F1871700C00B11C81 /* libbass.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D29B8E1871700C00B11C81 /* libbass.a */; };
+		529C6490187586FB0020ED1E /* libbass_fx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 529C648E187586FB0020ED1E /* libbass_fx.a */; };
+		529C6491187586FB0020ED1E /* libbass.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 529C648F187586FB0020ED1E /* libbass.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,8 +77,8 @@
 		529C6484187577120020ED1E /* midnight-ride-01a.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "midnight-ride-01a.mp3"; sourceTree = "<group>"; };
 		529C6486187577AF0020ED1E /* heart-of-the-sea-01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "heart-of-the-sea-01.mp3"; sourceTree = "<group>"; };
 		529C648A187578AC0020ED1E /* barn-beat-01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "barn-beat-01.mp3"; sourceTree = "<group>"; };
-		52D29B8C1871700600B11C81 /* libbass_fx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbass_fx.a; sourceTree = "<group>"; };
-		52D29B8E1871700C00B11C81 /* libbass.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbass.a; sourceTree = "<group>"; };
+		529C648E187586FB0020ED1E /* libbass_fx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbass_fx.a; sourceTree = "<group>"; };
+		529C648F187586FB0020ED1E /* libbass.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbass.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,11 +90,11 @@
 				5285ADCD186F48A70006079E /* AudioToolbox.framework in Frameworks */,
 				5285ADCE186F48A70006079E /* CFNetwork.framework in Frameworks */,
 				5285AD6E186F43640006079E /* CoreGraphics.framework in Frameworks */,
+				529C6490187586FB0020ED1E /* libbass_fx.a in Frameworks */,
 				5285AD6C186F43640006079E /* Foundation.framework in Frameworks */,
-				52D29B8F1871700C00B11C81 /* libbass.a in Frameworks */,
-				52D29B8D1871700600B11C81 /* libbass_fx.a in Frameworks */,
 				5285ADD1186F4CB70006079E /* QuartzCore.framework in Frameworks */,
 				5285ADCF186F48A70006079E /* SystemConfiguration.framework in Frameworks */,
+				529C6491187586FB0020ED1E /* libbass.a in Frameworks */,
 				5285AD70186F43640006079E /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,20 +207,12 @@
 		5285ADA1186F439F0006079E /* Bass */ = {
 			isa = PBXGroup;
 			children = (
+				529C648E187586FB0020ED1E /* libbass_fx.a */,
+				529C648F187586FB0020ED1E /* libbass.a */,
 				5285ADA2186F439F0006079E /* bass.h */,
 				5285ADA3186F439F0006079E /* bass_fx.h */,
-				52D29B8C1871700600B11C81 /* libbass_fx.a */,
-				5285ADB5186F439F0006079E /* mp3-free */,
 			);
 			path = Bass;
-			sourceTree = "<group>";
-		};
-		5285ADB5186F439F0006079E /* mp3-free */ = {
-			isa = PBXGroup;
-			children = (
-				52D29B8E1871700C00B11C81 /* libbass.a */,
-			);
-			path = "mp3-free";
 			sourceTree = "<group>";
 		};
 		5285ADC0186F43CB0006079E /* Audio */ = {

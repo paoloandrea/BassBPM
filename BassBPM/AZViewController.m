@@ -12,7 +12,6 @@
 @interface AZViewController () 
 
 @end
-
 #define SONG_NAME1  @"midnight-ride-01a"    //Correct: 120bpm    -- RESULTS 0bpm
 #define SONG_NAME2  @"heart-of-the-sea-01"  //Correct: 100bpm    -- RESULTS 176bpm
 #define SONG_NAME3  @"barn-beat-01"         //Correct: 120bpm    -- RESULTS 113bpm
